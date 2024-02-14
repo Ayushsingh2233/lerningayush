@@ -1,13 +1,39 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Perentf from "./FuntionComponent/LiftingStateUp/Perentf";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import React from "react"
+import ReactDOM from "react-dom/client"
+import ImagesExample from "./ImagesExample"
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <>
-    <Perentf />
+    <ImagesExample/>
   </>
-);
+)
+
+
+
+// import React from "react"
+// import ReactDOM from "react-dom/client"
+// import CssExample from "./FuntionComponent/CssExample"
+
+// const root = ReactDOM.createRoot(document.getElementById("root"))
+// root.render(
+//   <>
+//     <CssExample/>
+//   </>
+// )
+
+
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import Perentf from "./FuntionComponent/LiftingStateUp/Perentf";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <>
+//     <Perentf />
+//   </>
+// );
 
 // import React from "react";
 // import ReactDOM from "react-dom/client";
